@@ -1,4 +1,9 @@
 * {
+	font-family: 'Overpass', 'Montserrat', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title-font {
+	font-family: 'Montserrat', sans-serif;
 }
 
 body {

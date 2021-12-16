@@ -10,8 +10,11 @@
 
 <header>
 	{#if ready}
-		<a class="title" href="/" sveltekit:prefetch transition:fly={{ y: 50, duration: 1000 }}
-			>77Z Shop</a
+		<a
+			class="title title-font"
+			href="/"
+			sveltekit:prefetch
+			transition:fly={{ y: 50, duration: 1000 }}>77Z Shop</a
 		>
 	{/if}
 

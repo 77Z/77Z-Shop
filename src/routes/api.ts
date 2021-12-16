@@ -1,6 +1,8 @@
 export async function get({ params }) {
 	return {
-		body: '403 Forbidden',
-		status: 403
+		body: {
+			routes: ['api/item/[itemslug]', 'api/storefront']
+		},
+		status: 200
 	};
 }
